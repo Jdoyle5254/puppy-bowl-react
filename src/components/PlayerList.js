@@ -6,7 +6,7 @@ function PlayerList(props){
     
     //create a list of Player components
     const allPlayers = props.players.map(player => {
-        return <Player firstName={player.firstName} jersey={player.jerseyNumber} hobbies={player.hobbies} />
+        return <Player firstName={player.firstName} breed={player.breed} hobbies={player.hobbies} />
     });
     return <div> {allPlayers} </div> 
 }

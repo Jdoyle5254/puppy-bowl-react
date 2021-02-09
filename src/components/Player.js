@@ -7,7 +7,7 @@ function Player (props) {
     return (
     <div>
     <h3>Player Name: {props.firstName}</h3>
-    <p>Jersey Number: {props.breed} </p>
+    <p>Breed: {props.breed} </p>
      <ul> Hobbies:
          {playerConditional}
       </ul>
